@@ -1,0 +1,11 @@
+@import '../../assets/sass/variables';
+
+.course-search {
+    margin: 0 20px;
+
+    &__title {
+    color: $titles;
+    font-size: 21px;
+    margin: 10px;
+    }
+}

@@ -1,16 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './NavBar.scss';
 
 const NavBar = () => {
   return (
-    <div>
-        <Link className="nav-menu__item" to="/">
+    <div className="nav-menu" data-testid="nav-menu">
+        <Link className="nav-menu__item" to="/" data-testid="nav-menu__item">
             _courseology
         </Link>
-        <Link className="nav-menu__item" to="/courses">
-            Courses
-        </Link>
-        <Link className="nav-menu__item" to="/add-course">
+        <Link className="nav-menu__item" to="/add-course" data-testid="nav-menu__item">
             Add Course
         </Link>
 

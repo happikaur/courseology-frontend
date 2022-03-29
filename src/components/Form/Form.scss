@@ -1,0 +1,32 @@
+@import '../../assets/sass/variables';
+
+.add-course-title {
+    text-align: center;
+    font-size: 30px;
+    color: $nav-background;
+    margin: 40px;
+}
+
+.form {
+    background-color: $description-bg;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0 50px;
+
+    &__label {
+        font-size: 20px;
+        margin-bottom: 5px;
+        width: calc(20% - 20px);
+        display: inline-block;
+        text-align: right;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+
+    &__input {
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 75%;
+    }
+}

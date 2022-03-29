@@ -1,21 +1,17 @@
 import React from 'react'
+import Course from './Course/Course'
+import './Courses.scss';
 
 const Courses = () => {
 
    
 
   return (
-    <>
-   <h3>Course Results...</h3>
-   <div></div>
-   <div></div>
-   <div></div>
-   <div></div>
-   <div></div>
-   <div></div>
-   <div></div>
-   <div></div>
-    </>
+    <div className='course-search'>
+      <h3 className='course-search__title'>Course Results...</h3>
+      <Course />
+   
+    </div>
   )
 }
 

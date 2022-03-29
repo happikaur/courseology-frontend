@@ -1,0 +1,15 @@
+@import '../../assets/sass/variables';
+
+.nav-menu {
+    background-color: $nav-background;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+
+    &__item {
+        color: $background;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
